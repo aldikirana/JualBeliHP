@@ -14,7 +14,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.aldikirana.jualbelihp.model.Handphone;
 import com.aldikirana.jualbelihp.server.AsyncInvokeURLTask;
-import com.ilham.jualbelihp.R;
 
 import org.apache.http.NameValuePair;
 import org.apache.http.message.BasicNameValuePair;

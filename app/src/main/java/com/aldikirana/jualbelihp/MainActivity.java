@@ -23,7 +23,6 @@ import androidx.core.view.MenuItemCompat;
 import com.aldikirana.jualbelihp.adapter.ListAdapterHandphone;
 import com.aldikirana.jualbelihp.model.Handphone;
 import com.aldikirana.jualbelihp.server.AsyncInvokeURLTask;
-import com.ilham.jualbelihp.R;
 
 import org.apache.http.NameValuePair;
 import org.apache.http.message.BasicNameValuePair;

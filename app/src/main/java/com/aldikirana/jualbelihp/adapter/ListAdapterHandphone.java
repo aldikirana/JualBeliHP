@@ -10,7 +10,7 @@ import android.widget.Filterable;
 import android.widget.TextView;
 
 import com.aldikirana.jualbelihp.model.Handphone;
-import com.ilham.jualbelihp.R;
+import com.aldikirana.jualbelihp.R;
 
 import java.util.ArrayList;
 import java.util.List;
