@@ -20,14 +20,15 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 
 public class AsyncInvokeURLTask extends AsyncTask<Void, Void, String> {
-    public String mNoteItWebUrl = "www.siakad-altie.com";
+    public String mNoteItWebUrl = "www.aldikirana23.com";
     private ArrayList<NameValuePair> mParams;
     private OnPostExecuteListener mPostExecuteListener = null;
     private ProgressDialog dialog;
     public boolean showdialog =false;
     public String message ="Proses Data";
     //Harus diganti dengan IP Server yang digunakan
-    public String url_server ="https://siakad-altie.000webhostapp.com/jualbelihp/";
+    public String url_server ="https://aldikirana23.000webhostapp.com/xphone/";
+    //public String url_server ="http://192.168.43.59/xphone/";
     public Context applicationContext;
     public static interface OnPostExecuteListener{
         void onPostExecute(String result);

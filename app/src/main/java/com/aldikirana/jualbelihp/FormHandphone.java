@@ -7,9 +7,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.EditText;
 import android.widget.Toast;
-
 import androidx.appcompat.app.AppCompatActivity;
-
 import com.aldikirana.jualbelihp.model.Handphone;
 import com.aldikirana.jualbelihp.server.AsyncInvokeURLTask;
 
@@ -27,7 +25,7 @@ public class FormHandphone extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView( R.layout.activity_form_handphone);
+        setContentView(R.layout.activity_form_handphone);
         initView();
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         handphone = new Handphone();

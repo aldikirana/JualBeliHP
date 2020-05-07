@@ -5,12 +5,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
-import android.widget.Filter;
 import android.widget.Filterable;
 import android.widget.TextView;
-
-import com.aldikirana.jualbelihp.model.Handphone;
+import android.widget.Filter;
 import com.aldikirana.jualbelihp.R;
+import com.aldikirana.jualbelihp.model.Handphone;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -41,7 +40,7 @@ public class ListAdapterHandphone extends BaseAdapter implements Filterable {
     public View getView(int position, View convertView, ViewGroup parent){
         if (convertView == null){
             LayoutInflater inflater = LayoutInflater.from(this.context);
-            convertView = inflater.inflate( R.layout.list_row, null);
+            convertView = inflater.inflate(R.layout.list_row, null);
         }
         Handphone hp = filterd.get(position);
         TextView textNama = (TextView) convertView.findViewById(R.id.text_nama);

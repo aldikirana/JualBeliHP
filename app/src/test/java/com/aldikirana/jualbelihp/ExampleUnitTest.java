@@ -1,4 +1,4 @@
-package com.aldikirana.jualbelihp;
+package com.example.jualbelihp;
 
 import org.junit.Test;
 

@@ -45,7 +45,7 @@ public class MainActivity<refresh> extends AppCompatActivity implements SearchVi
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView( R.layout.activity_main);
+        setContentView(R.layout.activity_main);
 
         listView = (ListView) findViewById(R.id.listview_main);
         amCallback = new ActionMode.Callback() {

@@ -28,7 +28,7 @@ public class DetailHandphone extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
-        setContentView( R.layout.activity_detail_handphone);
+        setContentView(R.layout.activity_detail_handphone);
         handphone = new Handphone();
         initView();
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
